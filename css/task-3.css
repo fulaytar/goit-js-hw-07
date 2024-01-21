@@ -1,0 +1,39 @@
+#name-input{
+    display: block;
+    margin: 0 auto;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        /* 150% */
+        letter-spacing: 0.04em;
+        color: #2E2F42;
+        width: 360px;
+        height: 40px;
+        border-radius: 4px;
+        border: 1px solid #808080;
+        padding: 8px 16px;
+}
+#name-input:focus{
+    border-color: #000000;
+    outline-color: transparent;
+}
+#name-input::placeholder{
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        /* 150% */
+        letter-spacing: 0.04em;
+        color: #2E2F42;
+}
+h1{
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 1.33;
+        /* 133.333% */
+        letter-spacing: 0.04em;
+        color: #2E2F42;
+}

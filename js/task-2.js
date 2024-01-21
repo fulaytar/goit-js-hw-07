@@ -34,16 +34,9 @@ list.innerHTML  = images.map(element => `<img class="image" src="${element.url}"
 
 const imageList = document.querySelectorAll(".image");
 
-//стилізація
-list.style.display = "flex";
-list.style.flexWrap = "wrap"
-list.style.rowGap = "48px";
-list.style.columnGap = "24px"
-list.style.margin = " 0 auto";
-list.style.justifyContent="center"
 
 imageList.forEach(element => {
-  element.style.width = "360px";
+  element.style.maxWidth = "320px";
 })
 
 

@@ -1,0 +1,17 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.image{
+    overflow: hidden;
+    transition: transform 300ms ease-in,box-shadow 300ms ease-in;
+
+}
+.image:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+}
