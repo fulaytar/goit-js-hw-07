@@ -38,6 +38,14 @@ label{
         /* 150% */
         letter-spacing: 0.04em;
         color: #2E2F42;
+        transition: color 200ms linear;
+}
+.login-form label:nth-child(1):focus-within {
+    color: #4E75FF;
+}
+
+.login-form label:nth-child(2):focus-within {
+    color: #4E75FF;
 }
 button{
     margin-top: 16px;
