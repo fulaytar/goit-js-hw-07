@@ -6,7 +6,7 @@ justify-content: center;
     margin: 0 auto;
     border-radius: 8px;
     background: #FFFFFF;
-    max-width: 360px;
+    max-width: 600px;
     width: auto;
     height: 280px;
     opacity: 0.95;
@@ -32,6 +32,7 @@ justify-content: center;
     letter-spacing:0.04em;
     color: #FFFFFF;
     transition: background-color 200ms linear;
+    cursor: pointer;
     
 }
 .change-color:hover{

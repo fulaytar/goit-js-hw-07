@@ -1,0 +1,73 @@
+#controls{
+    display: flex;
+    padding: 32px;
+width: auto;
+max-width: 600px;
+    gap: 16px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    justify-content: center;
+    box-shadow: 0 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+input{
+    display: flex;
+        gap: 10px;
+        border-radius: 8px;
+        border: 1px solid #808080;
+        text-align: center;
+        width: 150px;
+        height: 40px;
+
+
+}
+input:focus{
+    border-color: #000000;
+    outline-color: transparent;
+}
+#controls :nth-child(2){
+    display: flex;
+    width: 120px;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #4E75FF;
+    border: none;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+        /* 150% */
+    letter-spacing: 0.04em;
+    transition: background-color 300ms linear;
+    cursor: pointer;
+}
+#controls :nth-child(2):hover{
+    background-color: #6C8CFF;
+}
+
+#controls :nth-child(3){
+    display: flex;
+    width: 120px;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #FF4E4E;
+    border: none;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.04em;
+    transition: background-color 300ms linear;
+        cursor: pointer;
+}
+#controls :nth-child(3):hover {
+    background-color: #FF7070;
+}
