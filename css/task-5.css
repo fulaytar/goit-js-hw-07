@@ -11,7 +11,7 @@ justify-content: center;
     height: 280px;
     opacity: 0.95;
     transition: background-color 350ms linear;
-    box-shadow: 0 5px 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.1);
 
 }
 

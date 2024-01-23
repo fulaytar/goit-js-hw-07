@@ -7,7 +7,8 @@ max-width: 600px;
     background-color: #FFFFFF;
     margin: 0 auto;
     justify-content: center;
-    box-shadow: 0 5px 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
 }
 input{
     display: flex;
@@ -70,4 +71,9 @@ input:focus{
 }
 #controls :nth-child(3):hover {
     background-color: #FF7070;
+}
+#boxes{
+    display: flex;
+    flex-wrap: wrap;
+    gap:16px;
 }
