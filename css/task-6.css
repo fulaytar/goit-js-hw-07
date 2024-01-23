@@ -77,3 +77,11 @@ input:focus{
     flex-wrap: wrap;
     gap:16px;
 }
+.item_box {
+    transition: transform 200ms ease-in-out, box-shadow 200ms linear;
+}
+
+.item_box:hover {
+    transform: rotateX(10deg)  translateZ(10px);
+    box-shadow: inset 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
