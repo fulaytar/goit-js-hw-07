@@ -19,7 +19,7 @@ function createBoxes() {
   let amount = inputNumber.value;
   const verifyLastBox = document.getElementsByClassName("item_box");
   //удаляю наявні блоки
-  if ( verifyLastBox.length> 0) {
+  if ( verifyLastBox.length> 0&&amount>=1&&amount<=100) {
     destroyBoxes();
   }
   //створюю блоки із властивостями
