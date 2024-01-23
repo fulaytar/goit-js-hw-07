@@ -47,6 +47,7 @@ function createBoxes() {
 
 //======функція видаляє бокси=====
 function destroyBoxes() {
+  itemsBox.style.padding = "0";
   const findDestroyBoxes = document.querySelectorAll(".item_box");
   findDestroyBoxes.forEach(box => box.remove());
 }
