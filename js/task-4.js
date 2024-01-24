@@ -1,4 +1,4 @@
-const registerForm = document.querySelector(".login-form");
+const loginForm = document.querySelector(".login-form");
 const userAccount = {
     email: "",
     password:"",
@@ -8,14 +8,14 @@ function dataVerification(event) {
     const form = event.target; //беру доступ до форми
     const email = form.elements.email.value.trim();
     
-    if (email == "" || email.includes(" ")) {
+    if (email === "") {
     return  alert('All form fields must be filled in')
     } else {
         userAccount.email = email;
     }
-    const password = form.elements.password.value;
+    const password = form.elements.password.value.trim();
     
-    if (password == "" || password.includes(" ")) {
+    if (password === "") {
         return alert('All form fields must be filled in')
     } else {
         userAccount.password = password;
@@ -25,4 +25,4 @@ function dataVerification(event) {
 }
 
 
-registerForm.addEventListener("submit", dataVerification)
+loginForm.addEventListener("submit", dataVerification)

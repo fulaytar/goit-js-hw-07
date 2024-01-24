@@ -47,9 +47,12 @@ function createBoxes() {
 
 //======функція видаляє бокси=====
 function destroyBoxes() {
-  itemsBox.style.padding = "0";
-  const findDestroyBoxes = document.querySelectorAll(".item_box");
-  findDestroyBoxes.forEach(box => box.remove());
+  // Перевіряємо, чи itemsBox існує
+  if (itemsBox) {
+    // Очищаємо вміст itemsBox
+    itemsBox.innerHTML = "";
+    itemsBox.style.padding = "0";
+  }
 }
 
 //======Навішав подію на кнопку create====

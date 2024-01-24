@@ -5,12 +5,12 @@ function getRandomHexColor() {
 }
 
 const button = document.querySelector(".change-color");
-const spanText = document.querySelector(".color");
-const widgetBlock=document.querySelector(".widget")
+const colorSpan = document.querySelector(".color");
+const body = document.querySelector("body"); // Вибір елемента body безпосередньо
 
 function changeColor() {
   let randomHex = getRandomHexColor();
-  spanText.textContent = randomHex;
-  widgetBlock.style.backgroundColor=`${randomHex}`
+  colorSpan.textContent = randomHex;
+  body.style.backgroundColor = randomHex; // Застосування кольору до елемента body
 }
 button.addEventListener("click", changeColor);

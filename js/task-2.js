@@ -30,13 +30,7 @@ const images = [
 const list = document.querySelector(".gallery");
 
 //додав фото
-list.innerHTML  = images.map(element => `<img class="image" src="${element.url}" alt="${element.alt}"></img>`).join("");
+list.innerHTML  = images.map(element => `<li><img class="image" src="${element.url}" alt="${element.alt}"></img></li>`).join("");
 
-const imageList = document.querySelectorAll(".image");
-
-
-imageList.forEach(element => {
-  element.style.maxWidth = "320px";
-})
 
 
